@@ -1,0 +1,18 @@
+.mainDiv{
+ display: block;
+ text-align: center;
+ width: 50%;
+ margin: 10px auto;
+ background-color: brown;
+ padding: 10px;
+}
+.heading{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 50px;
+  color: azure;
+}
+.para{
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgb(122, 119, 119);
+}
