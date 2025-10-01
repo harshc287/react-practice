@@ -4,15 +4,41 @@
  width: 50%;
  margin: 10px auto;
  background-color: brown;
- padding: 10px;
+
+ 
 }
 .heading{
   text-align: center;
-  padding-top: 10px;
+  padding: 10px;
   font-size: 50px;
   color: azure;
+  background-color:black;
+  width: auto;
+  
 }
+
 .para{
   letter-spacing: 1px;
   text-shadow: 1px 1px 1px rgb(122, 119, 119);
+  padding: 10px;
+}
+.readBtn{
+  width: 140px;
+  height: 40px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: none;
+}
+.readBtn:hover{
+  background-color: rgb(173, 173, 173);
+  
+}
+img{
+  transition: transform 0.3s ease; 
+}
+img:hover{
+  transform: scale(1.1);
 }
