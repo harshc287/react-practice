@@ -9,12 +9,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import ConditionalRendering  from './components/ConditionalRendering'
 import Counter2 from './components/Counter2'
 import ProjectFetchApi from './components/ProjectFetchApi'
+import ProjectWithFilter from './components/ProjectWithFilter'
 
 function App() {
  
   return (
     <>
-    <ProjectFetchApi />
+    <ProjectWithFilter />
+    {/* <ProjectFetchApi /> */}
     <Counter2 />
     <ConditionalRendering/>
     <Calculator/>
