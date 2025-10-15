@@ -2,11 +2,24 @@ import { useState } from 'react'
 
 import tilakImg from "./assets/tilak.jpg"
 import './App.css'
+import ChangeHading from './components/ChangeHading'
+import Counter from './components/counter' 
+import Calculator from './components/Calculator'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import ConditionalRendering  from './components/ConditionalRendering'
+import Counter2 from './components/Counter2'
+import ProjectFetchApi from './components/ProjectFetchApi'
 
 function App() {
  
   return (
     <>
+    <ProjectFetchApi />
+    <Counter2 />
+    <ConditionalRendering/>
+    <Calculator/>
+    <Counter/>
+    <ChangeHading/>
       <div className='mainDiv'>
         <h1 className='heading'>Tilak Bhai Ki Jai Ho</h1>
         <img src={tilakImg} alt="tilak" />
