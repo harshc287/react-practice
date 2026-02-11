@@ -42,3 +42,20 @@ img{
 img:hover{
   transform: scale(1.1);
 }
+
+body {
+    background: linear-gradient(135deg, #cafeda, #02fbbd);
+}
+
+.card {
+    border-radius: 15px;
+}
+
+button {
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}

@@ -10,11 +10,15 @@ import ConditionalRendering  from './components/ConditionalRendering'
 import Counter2 from './components/Counter2'
 import ProjectFetchApi from './components/ProjectFetchApi'
 import ProjectWithFilter from './components/ProjectWithFilter'
+import CounterComponent from './components/reducer/CounterComponent'
+import CoinCollect from './components/CoinCollect'
 
 function App() {
  
   return (
     <>
+    <CoinCollect />
+    <CounterComponent />
     <ProjectWithFilter />
     {/* <ProjectFetchApi /> */}
     <Counter2 />
